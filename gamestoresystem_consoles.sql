@@ -40,7 +40,7 @@ CREATE TABLE `consoles` (
 
 LOCK TABLES `consoles` WRITE;
 /*!40000 ALTER TABLE `consoles` DISABLE KEYS */;
-INSERT INTO `consoles` VALUES ('201','Xbox Series X',499.99,'2020-11-10','Microsoft');
+INSERT INTO `consoles` VALUES ('NTDSLITE','Nintendo Switch Lite',199.99,'2019-09-20','Nintendo'),('NTDSOLED','Nintendo Switch OLeD',359.99,'2022-10-08','Nintendo'),('PS4REG','Playstion 4 Regular',199.99,'2013-11-08','Sony Entertainment'),('SPS5DIG','Playstation 5 Digital Edition',399.99,'2020-11-12','Sony Entertainment'),('SPS5REG','Playstation 5 Regular',599.99,'2022-11-12','Sony Entertainment'),('XBOS','Xbox One Slim',199.99,'2013-11-04','Microsoft'),('XBSX','Xbox Series X',499.99,'2020-11-10','Microsoft');
 /*!40000 ALTER TABLE `consoles` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-18 13:55:48
+-- Dump completed on 2023-04-25 15:02:42

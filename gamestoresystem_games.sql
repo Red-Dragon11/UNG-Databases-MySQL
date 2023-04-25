@@ -39,7 +39,7 @@ CREATE TABLE `games` (
 
 LOCK TABLES `games` WRITE;
 /*!40000 ALTER TABLE `games` DISABLE KEYS */;
-INSERT INTO `games` VALUES ('101','Call of Duty: Modern Warfare II (2022)',69.99,'2022-10-09','Sledgehammer');
+INSERT INTO `games` VALUES ('CODMWII22','Call of Duty: Modern Warfare II (2022)',69.99,'2022-10-09','Sledgehammer'),('ERINGFSOFT','Elden Ring',59.99,'2022-02-25','FromSoftware'),('GOWRPS5','God of War Ragnarök',59.99,'2022-11-09','Santa Monica Studio'),('KHIII','Kingdom Hearts 3',49.99,'2019-01-25','Square Enix'),('SPLAT3NTDS','Splatoon 3',59.99,'2022-09-08','Nintendo'),('TLZTKNTDS','The Legend of Zelda: Tears of the Kingdom',69.99,'2023-05-12','Nintendo');
 /*!40000 ALTER TABLE `games` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-18 13:55:48
+-- Dump completed on 2023-04-25 15:02:43

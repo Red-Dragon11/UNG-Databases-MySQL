@@ -42,7 +42,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES ('123456789','M','Jack','Daniels','431 Smith St.',5),('223322233','F','Sarah','Slaton','201 Peabody Blvd.',5),('333444555','M','John','Doe','111 Sample St.',6);
+INSERT INTO `employee` VALUES ('111111111','M','Antonio','Weaver','383 Romrog Way',3),('112211221','F','Caryss','Williams ','4022 Delaware Avenue',3),('123456789','M','Jack','Daniels','431 Smith St.',5),('222222222','M','Max','Green','1391 Wright Court',3),('223322233','F','Sarah','Slaton','201 Peabody Blvd.',5),('333333333','F','Diana','Petal','4238 Cantebury Drive',6),('333444555','M','John','Doe','111 Sample St.',6),('444444444','M','Howard','Huff','1592 Cityview Drive',6),('555555555','F','Kaylee','White','81 Ersel Street',5),('666666666','M','Howard','Cross','2711 Weekley Street',3),('777777777','M','Jared','Nixon','2026 Saint James Drive',5),('888888888','M','Virgil','Newman','1018 Mulberry Street',6),('999999999','F','Jaden','Walters','2800 Limer Street',3);
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-18 13:55:47
+-- Dump completed on 2023-04-25 15:02:42

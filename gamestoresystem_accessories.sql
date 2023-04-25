@@ -39,7 +39,7 @@ CREATE TABLE `accessories` (
 
 LOCK TABLES `accessories` WRITE;
 /*!40000 ALTER TABLE `accessories` DISABLE KEYS */;
-INSERT INTO `accessories` VALUES ('301','Xbox Controller',79.99,'Microsoft');
+INSERT INTO `accessories` VALUES ('HYPERXCLOUDII','Cloud II Headset',89.99,'HyperX'),('JOYCONRED','Switch Joycons',79.99,'Nintendo'),('PS4CONT','Playstation 4 Controller',59.99,'Sony Entertainment'),('PS5CONT','Playstation 5 Controller',79.99,'Sony Entertainment'),('XBCONT','Xbox Controller',79.99,'Microsoft'),('XBOXKINECT','Xbox Kinect Addon',24.99,'Microsoft');
 /*!40000 ALTER TABLE `accessories` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-18 13:55:48
+-- Dump completed on 2023-04-25 15:02:42
